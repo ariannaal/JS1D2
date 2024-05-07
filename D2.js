@@ -219,4 +219,5 @@ console.log(array)
 
 array.pop();
 array.push(100);
-console.log(array)
+console.log(array);
+
