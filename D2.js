@@ -210,13 +210,13 @@ array.push(7);
 array.push(8);
 array.push(9);
 array.push(10);
-console.log(array);
+console.log(array)
 
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-
-
-
+array.pop();
+array.push(100);
+console.log(array)
