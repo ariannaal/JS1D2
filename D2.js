@@ -185,22 +185,38 @@ console.log("Città:", me["city"])
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
-/* delete me.lastName */
+delete me.lastName
+console.log(me)
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
-
+me.skills.pop()
+console.log(me.skills)
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
-const array1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+let array = []
+array.push(1);
+array.push(2);
+array.push(3);
+array.push(4);
+array.push(5);
+array.push(6);
+array.push(7);
+array.push(8);
+array.push(9);
+array.push(10);
+console.log(array);
+
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
+
+
 
 
